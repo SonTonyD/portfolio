@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Son-Tony Dinh, développeur web créatif et rigoureux.">
+  <title>Son-Tony Dinh — Développeur</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="brand" href="#accueil" aria-label="Retour à l'accueil"><span>&lt;</span>STD<span>/&gt;</span></a>
+      <div class="nav-links">
+        <a href="#projets">Projets</a>
+        <a href="#experiences">Expériences</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" rel="noreferrer" aria-label="Profil GitHub">GH</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer" aria-label="Profil LinkedIn">in</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="accueil">
+      <div class="hero-inner container">
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span class="status-dot"></span>Disponible pour de nouveaux projets</p>
+          <h1>Bonjour, moi c'est<br><span>Son-Tony Dinh.</span></h1>
+          <p>Développeur full-stack, je conçois des expériences numériques utiles, accessibles et robustes — de l'idée jusqu'à la mise en production.</p>
+          <a class="button button-primary" href="#projets">Découvrir mon travail <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="portrait-wrap reveal" aria-label="Portrait de Son-Tony Dinh" role="img">
+          <div class="portrait-placeholder">
+            <span>ST</span>
+            <small>ProfilePicture.jpg</small>
+          </div>
+          <span class="code-chip code-chip-top">{ clean_code: true }</span>
+          <span class="code-chip code-chip-bottom">// Lyon, France</span>
+        </div>
+      </div>
+      <div class="worked-with container reveal">
+        <p>Ils m'ont fait confiance</p>
+        <div class="logo-row" aria-label="Entreprises partenaires">
+          <div class="company-logo">SMILE</div>
+          <div class="company-logo">VIVERIS</div>
+          <div class="company-logo">LBG</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projets">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-index">01 / PROJETS</p>
+          <h2>Quelques réalisations</h2>
+          <p>Des produits pensés pour répondre à un besoin concret, avec une attention particulière portée à l'expérience et à la qualité du code.</p>
+        </div>
+
+        <article class="project-row reveal">
+          <div class="project-visual visual-dashboard" role="img" aria-label="Aperçu d'un tableau de bord analytique">
+            <div class="mock-browser"><i></i><i></i><i></i></div>
+            <div class="mock-sidebar"></div>
+            <div class="mock-content"><span></span><b></b><b></b><b></b></div>
+          </div>
+          <div class="project-copy">
+            <p class="project-number">Projet / 01</p>
+            <h3>Pulse Dashboard</h3>
+            <p>Une plateforme de suivi d'activité qui transforme des données complexes en décisions simples et rapides.</p>
+            <div class="tags"><span>Angular</span><span>TypeScript</span><span>Supabase</span></div>
+            <a class="button button-accent" href="#" aria-label="Voir le projet Pulse Dashboard">Voir le projet <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+
+        <article class="project-row project-row-reverse reveal">
+          <div class="project-visual visual-mobile" role="img" aria-label="Aperçu d'une application mobile de réservation">
+            <div class="phone"><div class="phone-notch"></div><span>Bonjour.</span><b></b><b></b><button type="button" tabindex="-1">Réserver</button></div>
+            <div class="mobile-caption">Une expérience fluide,<br>partout.</div>
+          </div>
+          <div class="project-copy">
+            <p class="project-number">Projet / 02</p>
+            <h3>Horizon Booking</h3>
+            <p>Un parcours de réservation mobile-first conçu pour réduire les frictions et améliorer la conversion.</p>
+            <div class="tags"><span>React</span><span>Node.js</span><span>PostgreSQL</span></div>
+            <a class="button button-accent" href="#" aria-label="Voir le projet Horizon Booking">Voir le projet <span aria-hidden="true">↗</span></a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experiences">
+      <div class="container">
+        <div class="section-heading section-heading-dark reveal">
+          <p class="section-index">02 / EXPÉRIENCES</p>
+          <h2>Mon parcours</h2>
+          <p>Des contextes variés, une même exigence : comprendre, construire et transmettre.</p>
+        </div>
+        <div class="experience-grid">
+          <a class="experience-card reveal" href="#contact">
+            <div class="experience-logo">SMILE<span>_</span></div>
+            <div><p class="date">2023 — Aujourd'hui</p><h3>Développeur full-stack</h3><p>Conception d'applications métier, accompagnement technique et amélioration continue des pratiques.</p></div>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="experience-card reveal" href="#contact">
+            <div class="experience-logo experience-logo-alt">VIVERIS<span>.</span></div>
+            <div><p class="date">2021 — 2023</p><h3>Ingénieur logiciel</h3><p>Développement de solutions web performantes au sein d'équipes produit pluridisciplinaires.</p></div>
+            <span class="card-arrow" aria-hidden="true">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="section-index">03 / CONTACT</p>
+          <h2>Construisons quelque chose<br>de solide.</h2>
+          <p>Un projet, une opportunité ou simplement une idée à partager ? Écrivez-moi.</p>
+        </div>
+        <div class="contact-grid">
+          <a class="contact-card reveal" href="mailto:bonjour@son-tony.dev">
+            <span class="contact-icon" aria-hidden="true">@</span><small>E-mail</small><strong>bonjour@son-tony.dev</strong><span>Envoyer un message ↗</span>
+          </a>
+          <a class="contact-card reveal" href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+            <span class="contact-icon" aria-hidden="true">in</span><small>LinkedIn</small><strong>Son-Tony Dinh</strong><span>Voir le profil ↗</span>
+          </a>
+          <a class="contact-card reveal" href="#" id="cv-link">
+            <span class="contact-icon" aria-hidden="true">CV</span><small>Curriculum vitæ</small><strong>Mon parcours complet</strong><span>Télécharger ↓</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container"><p>Conçu &amp; développé avec soin <span aria-hidden="true">⌨</span> — <span id="current-year"></span></p><a href="#accueil">Retour en haut ↑</a></div></footer>
+</body>
+</html>
