@@ -17,8 +17,3 @@ if (reducedMotion || !('IntersectionObserver' in window)) {
 
   revealElements.forEach((element) => observer.observe(element));
 }
-
-document.getElementById('cv-link').addEventListener('click', (event) => {
-  event.preventDefault();
-  window.alert('Ajoutez votre CV au projet puis remplacez le lien par son chemin (ex. assets/cv-son-tony-dinh.pdf).');
-});
